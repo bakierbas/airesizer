@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DC743621E0BEE4A003FBC88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC743611E0BEE4A003FBC88 /* AppDelegate.swift */; };
+		2DC743641E0BEE4A003FBC88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC743631E0BEE4A003FBC88 /* ViewController.swift */; };
+		2DC743661E0BEE4A003FBC88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DC743651E0BEE4A003FBC88 /* Assets.xcassets */; };
+		2DC743691E0BEE4A003FBC88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DC743671E0BEE4A003FBC88 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2DC7435E1E0BEE4A003FBC88 /* airesizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = airesizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DC743611E0BEE4A003FBC88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2DC743631E0BEE4A003FBC88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2DC743651E0BEE4A003FBC88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DC743681E0BEE4A003FBC88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DC7436A1E0BEE4A003FBC88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DC7435B1E0BEE4A003FBC88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DC743551E0BEE4A003FBC88 = {
+			isa = PBXGroup;
+			children = (
+				2DC743601E0BEE4A003FBC88 /* airesizer */,
+				2DC7435F1E0BEE4A003FBC88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DC7435F1E0BEE4A003FBC88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DC7435E1E0BEE4A003FBC88 /* airesizer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DC743601E0BEE4A003FBC88 /* airesizer */ = {
+			isa = PBXGroup;
+			children = (
+				2DC743611E0BEE4A003FBC88 /* AppDelegate.swift */,
+				2DC743631E0BEE4A003FBC88 /* ViewController.swift */,
+				2DC743651E0BEE4A003FBC88 /* Assets.xcassets */,
+				2DC743671E0BEE4A003FBC88 /* Main.storyboard */,
+				2DC7436A1E0BEE4A003FBC88 /* Info.plist */,
+			);
+			path = airesizer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DC7435D1E0BEE4A003FBC88 /* airesizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DC7436D1E0BEE4A003FBC88 /* Build configuration list for PBXNativeTarget "airesizer" */;
+			buildPhases = (
+				2DC7435A1E0BEE4A003FBC88 /* Sources */,
+				2DC7435B1E0BEE4A003FBC88 /* Frameworks */,
+				2DC7435C1E0BEE4A003FBC88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = airesizer;
+			productName = airesizer;
+			productReference = 2DC7435E1E0BEE4A003FBC88 /* airesizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DC743561E0BEE4A003FBC88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Best Yazılım";
+				TargetAttributes = {
+					2DC7435D1E0BEE4A003FBC88 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = LP6HNQ7SCS;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2DC743591E0BEE4A003FBC88 /* Build configuration list for PBXProject "airesizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DC743551E0BEE4A003FBC88;
+			productRefGroup = 2DC7435F1E0BEE4A003FBC88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DC7435D1E0BEE4A003FBC88 /* airesizer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DC7435C1E0BEE4A003FBC88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DC743661E0BEE4A003FBC88 /* Assets.xcassets in Resources */,
+				2DC743691E0BEE4A003FBC88 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DC7435A1E0BEE4A003FBC88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DC743641E0BEE4A003FBC88 /* ViewController.swift in Sources */,
+				2DC743621E0BEE4A003FBC88 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2DC743671E0BEE4A003FBC88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DC743681E0BEE4A003FBC88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DC7436B1E0BEE4A003FBC88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2DC7436C1E0BEE4A003FBC88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		2DC7436E1E0BEE4A003FBC88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LP6HNQ7SCS;
+				INFOPLIST_FILE = airesizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.best.airesizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2DC7436F1E0BEE4A003FBC88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LP6HNQ7SCS;
+				INFOPLIST_FILE = airesizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.best.airesizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DC743591E0BEE4A003FBC88 /* Build configuration list for PBXProject "airesizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DC7436B1E0BEE4A003FBC88 /* Debug */,
+				2DC7436C1E0BEE4A003FBC88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DC7436D1E0BEE4A003FBC88 /* Build configuration list for PBXNativeTarget "airesizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DC7436E1E0BEE4A003FBC88 /* Debug */,
+				2DC7436F1E0BEE4A003FBC88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DC743561E0BEE4A003FBC88 /* Project object */;
+}
